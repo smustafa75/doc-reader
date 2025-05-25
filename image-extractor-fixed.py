@@ -118,7 +118,7 @@ def check_and_install_fonts():
 def parse_arguments():
     """Parse command line arguments"""
     parser = argparse.ArgumentParser(description='Extract text from images or PDFs using Amazon Bedrock')
-    parser.add_argument('file_path', nargs='?', default='/Users/sabrmstfy/Downloads/UAE-Invoice-Template-1.jpg',
+    parser.add_argument('file_path', nargs='?', default='/Users/test/Downloads/UAE-Invoice-Template-1.jpg',
                         help='Path to the image or PDF file')
     parser.add_argument('--region', default='us-west-2', help='AWS region for Bedrock')
     parser.add_argument('--profile', default='default', help='AWS profile name')
