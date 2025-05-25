@@ -1,4 +1,4 @@
-# Document Text Extractor
+# Document Text Extractor | مستخرج نصوص المستندات | دستاویز متن ایکسٹریکٹر
 
 A powerful tool that extracts text from images and PDFs using Amazon Bedrock's Claude AI models, with specialized formatting for financial documents.
 
